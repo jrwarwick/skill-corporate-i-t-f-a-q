@@ -1,0 +1,54 @@
+{
+    "name": "Corporate IT FAQs",
+    "skillMetadata": {
+        "sections": [
+	    {
+		 "name": "FAQs",
+		 "fields": [
+                    {
+                        "name": "wifi_ssid",
+                        "type": "text",
+                        "label": "WiFi SSID/Network-Name",
+                        "value": "",
+                        "placeholder": "CorpNet"
+                    },
+                    {
+                        "name": "wifi_key",
+                        "type": "text",
+                        "label": "WiFi SSID/Network-Name",
+                        "value": "",
+                        "placeholder": "CorpNet"
+                    },
+                    {
+                        "name": "vpn_address",
+                        "type": "text",
+                        "label": "WiFi SSID/Network-Name",
+                        "value": "",
+                        "placeholder": "CorpNet"
+                    },
+                    {
+                        "name": "webmail_address",
+                        "type": "text",
+                        "label": "WiFi SSID/Network-Name",
+                        "value": "",
+                        "placeholder": "CorpNet"
+                    },
+                    {
+                        "name": "it_manager",
+                        "type": "text",
+                        "label": "IT Manager Name",
+                        "value": "",
+                        "placeholder": "J. Doe"
+                    },
+                    {
+                        "name": "the_internet",
+                        "type": "text",
+                        "label": "What is the Internet",
+                        "value": "",
+                        "placeholder": "A Series of Tubes"
+                    },
+                ]
+            }
+        ]
+    }
+}
