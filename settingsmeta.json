@@ -42,6 +42,13 @@
                         "placeholder": "J. Doe"
                     },
                     {
+                        "name": "intranet_website_address",
+                        "type": "text",
+                        "label": "Intranet Website Homepage URL",
+                        "value": "",
+                        "placeholder": "http://web.int.corp.com/home"
+                    },
+                    {
                         "name": "kerberos_domain_name",
                         "type": "text",
                         "label": "Windows/MSAD/Kerberos Domain Name",
@@ -53,7 +60,7 @@
                         "type": "text",
                         "label": "What is the Internet",
                         "value": "",
-                        "placeholder": "A Series of Tubes"
+                        "placeholder": "A network of networks"
                     }
                 ]
             }
