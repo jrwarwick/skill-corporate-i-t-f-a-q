@@ -42,6 +42,13 @@
                         "placeholder": "J. Doe"
                     },
                     {
+                        "name": "kerberos_domain_name",
+                        "type": "text",
+                        "label": "Windows/MSAD/Kerberos Domain Name",
+                        "value": "",
+                        "placeholder": "int.corp.com"
+                    },
+                    {
                         "name": "the_internet",
                         "type": "text",
                         "label": "What is the Internet",
