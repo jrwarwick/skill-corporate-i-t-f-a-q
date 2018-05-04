@@ -34,7 +34,8 @@ class CorporateITFAQSkill(MycroftSkill):
             data = {'webmail_address': self.settings['webmail_address']}
             self.speak_dialog("webmail_address",data=self.settings['webmail_address'])
 
-    @intent_handler(IntentBuilder("WifiPasswordIntent").optional("corporate").require("wifi_password"))
+    ###@intent_handler(IntentBuilder("WifiPasswordIntent").optional("corporate").require("wifi_password"))
+    @intent_handler(IntentBuilder("WifiPasswordIntent").require("wifi_password"))
     def handle_wifi_password(self, message):
         if 'wifi_password' not in self.settings or not self.settings['wifi_password']:
             self.speak_dialog("unknown")
@@ -42,8 +43,8 @@ class CorporateITFAQSkill(MycroftSkill):
             data = {'wifi_password': self.settings['wifi_password']}
             self.speak_dialog("wifi_password",data=self.settings['wifi_password'])
 
-    @intent_handler_kerberos_domain_name(IntentBuilder("KerberosDomainNameIntent").require("kerberos_domain_name"))
-    def handle_(self, message):
+    @intent_handler(IntentBuilder("KerberosDomainNameIntent").require("kerberos_domain_name"))
+    def handle_kerberos_domain_name(self, message):
         if 'kerberos_domain_name' not in self.settings or not self.settings['kerberos_domain_name']:
             self.speak_dialog("unknown")
         else:
