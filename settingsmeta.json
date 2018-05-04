@@ -1,5 +1,6 @@
 {
     "name": "Corporate IT FAQs",
+    "color": "#222222",
     "skillMetadata": {
         "sections": [
 	    {
@@ -15,21 +16,21 @@
                     {
                         "name": "wifi_key",
                         "type": "text",
-                        "label": "WiFi SSID/Network-Name",
+                        "label": "WiFi Access Key/Password",
                         "value": "",
                         "placeholder": "CorpNet"
                     },
                     {
                         "name": "vpn_address",
                         "type": "text",
-                        "label": "WiFi SSID/Network-Name",
+                        "label": "Remote VPN Login URL",
                         "value": "",
                         "placeholder": "CorpNet"
                     },
                     {
                         "name": "webmail_address",
                         "type": "text",
-                        "label": "WiFi SSID/Network-Name",
+                        "label": "Webmail Client Login URL",
                         "value": "",
                         "placeholder": "CorpNet"
                     },
@@ -46,7 +47,7 @@
                         "label": "What is the Internet",
                         "value": "",
                         "placeholder": "A Series of Tubes"
-                    },
+                    }
                 ]
             }
         ]
