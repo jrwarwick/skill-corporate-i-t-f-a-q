@@ -10,6 +10,14 @@ class CorporateITFAQSkill(MycroftSkill):
         return standard_string.replace('.', ' dot ')
 
 
+    @intent_handler(IntentBuilder("EmailAttachmentSizeLimit").require("email_attach_size_limit"))
+    def handle_email_attach_size_limit(self, message):
+        if 'email_attach_size_limit' not in self.settings or not self.settings['email_attach_size_limit']:
+            self.speak_dialog("unknown")
+        else:
+            data = {'email_attach_size_limit': self.addressified(self.settings['email_attach_size_limit'])}
+            self.speak_dialog("email_attach_size_limit", data)
+
     @intent_handler(IntentBuilder("WifiSsid").require("wifi_ssid"))
     def handle_wifi_ssid(self, message):
         if 'wifi_ssid' not in self.settings or not self.settings['wifi_ssid']:
@@ -42,8 +50,8 @@ class CorporateITFAQSkill(MycroftSkill):
             data = {'webmail_address': self.addressified(self.settings['webmail_address'])}
             self.speak_dialog("webmail_address", data)
 
-    ###@intent_handler(IntentBuilder("WifiPasswordIntent").optional("corporate").require("wifi_password"))
-    @intent_handler(IntentBuilder("WifiPasswordIntent").require("wifi_password"))
+    @intent_handler(IntentBuilder("WifiPasswordIntent").optionally("corporate").require("wifi_password"))
+    ###@intent_handler(IntentBuilder("WifiPasswordIntent").require("wifi_password"))
     def handle_wifi_password(self, message):
         if 'wifi_password' not in self.settings or not self.settings['wifi_password']:
             self.speak_dialog("unknown")
@@ -64,7 +72,7 @@ class CorporateITFAQSkill(MycroftSkill):
         if 'kerberos_domain_name' not in self.settings or not self.settings['kerberos_domain_name']:
             self.speak_dialog("unknown")
         else:
-            data = {'kerberos_domain_name': addressified(self.settings['kerberos_domain_name'])}
+            data = {'kerberos_domain_name': self.addressified(self.settings['kerberos_domain_name'])}
             self.speak_dialog("kerberos_domain_name", data)
 
 def create_skill():

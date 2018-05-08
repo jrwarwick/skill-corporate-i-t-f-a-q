@@ -7,6 +7,13 @@
 		 "name": "FAQs",
 		 "fields": [
                     {
+                        "name": "email_attach_size_limit",
+                        "type": "text",
+                        "label": "E-mail Attachment Size Limit",
+                        "value": "",
+                        "placeholder": "10 megabytes"
+                    },
+                    {
                         "name": "wifi_ssid",
                         "type": "text",
                         "label": "WiFi SSID/Network-Name",

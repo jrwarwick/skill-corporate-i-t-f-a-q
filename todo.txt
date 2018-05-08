@@ -1,3 +1,10 @@
+additional, optional text field "note" for each setting. If present, a typical usage would be the authentication basis/source/special-requirements. 
+	e.g., 
+		for webmail, you note that "authentication is provided by federated Active Directory, therefore, corporate windows log in credentials will provide access to email."
+		or FTP: "The FTP server is isolated for security concerns. All usernames and passwords are issued by request and will not match any other login credentials"
+		or "While the VPN uses Active Directory for authentication, you must specify the domain name in the username box when logging in."
+
+
 i t manager
 wifi password
 wifi key
@@ -20,6 +27,8 @@ What is the SMTP relay server address?
 
  internet?  (a series of tubes)
 
+best phrasing:
+ * corporate intranet website homepage URL
 
 
 
@@ -47,3 +56,9 @@ what is the windows|active directory|kerberos domain name?
 What is the SMTP relay server address?
 
 what is the internet?  (a series of tubes)
+
+
+ * corporate FTP (or similar service) URL and auth scheme
+ * email attachment size limit
+ * email mailbox size limit
+ * spam/mail-filtering service name and management console url
