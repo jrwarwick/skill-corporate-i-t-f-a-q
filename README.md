@@ -8,7 +8,8 @@ Currently, VPN is assumed to be an SSL or similar type delivered with a web-base
 
 ## Examples
  * "what is the wifi password?"
- * "what is the VPN URL?"
+ * "what is the corporate VPN URL?"
+ * "what is the kerberos domain name?"
  * "who is the IT manager?!"
 
 ## Credits
