@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the company web mail u r l",
+  "intent_type": "WebmailAddressIntent",
+  "expected_dialog": "webmail_address"
+}
+

@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the corporate vpn address",
+  "intent_type": "VpnAddressIntent",
+  "expected_dialog": "vpn_address"
+}
+

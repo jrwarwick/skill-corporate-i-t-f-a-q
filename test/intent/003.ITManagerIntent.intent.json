@@ -1,0 +1,6 @@
+{
+  "utterance": "who is the i t manager",
+  "intent_type": "ITManagerIntent",
+  "expected_dialog": "it_manager"
+}
+

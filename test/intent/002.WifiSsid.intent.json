@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the corporate wifi network name",
+  "intent_type": "WifiSsid",
+  "expected_dialog": "wifi_ssid"
+}
+

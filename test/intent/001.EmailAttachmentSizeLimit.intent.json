@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the email attachment size limit",
+  "intent_type": "EmailAttachmentSizeLimit",
+  "expected_dialog": "email_attach_size_limit"
+}
+

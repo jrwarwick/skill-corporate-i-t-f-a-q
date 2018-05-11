@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the corporate kerberos domain name",
+  "intent_type": "KerberosDomainNameIntent",
+  "expected_dialog": "kerberos_domain_name"
+}
+

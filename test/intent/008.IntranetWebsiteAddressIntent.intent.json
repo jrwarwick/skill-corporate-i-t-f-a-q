@@ -1,0 +1,6 @@
+{
+  "utterance": "what is the company intranet homepage address",
+  "intent_type": "IntranetWebsiteAddressIntent",
+  "expected_dialog": "intranet_website_address"
+}
+
