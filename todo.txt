@@ -1,4 +1,6 @@
-additional, optional text field "note" for each setting. If present, a typical usage would be the authentication basis/source/special-requirements. 
+Known outages: Special field for an atom/rss feed URI or something similar, or maybe a standardized calendar URI. Allow for inquiry into currently active or very-soon-to-come service outages. Maybe helpful to daily check and cache entries incase the outage includes connectivity to the schedule feed itself.
+
+Additional, optional text field "note" for each setting. If present, a typical usage would be the authentication basis/source/special-requirements. 
 	e.g., 
 		for webmail, you note that "authentication is provided by federated Active Directory, therefore, corporate windows log in credentials will provide access to email."
 		or FTP: "The FTP server is isolated for security concerns. All usernames and passwords are issued by request and will not match any other login credentials"
